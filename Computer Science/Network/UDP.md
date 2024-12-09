@@ -24,7 +24,7 @@
 
 ### UDP Header
 
-<img src=../resources/UDP_Header.png>
+<img src=../../resources/UDP_Header.png>
 
 - Source Port: 시작 포트
 - Destination Port: 도착지 포트

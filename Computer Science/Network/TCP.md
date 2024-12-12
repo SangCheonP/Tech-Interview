@@ -53,3 +53,22 @@
  - **송신자 중심의 제어**로, 네트워크 상태를 추정하여 데이터 전송 속도를 조절
 
  - 주요 알고리즘: **Slow Start**, **Congestion Avoidance**, **Fast Retransmit**, **Fast Recovery**
+
+<br>
+
+**혼잡 윈도우**(Congestion Window, cwnd)
+
+    송신자가 네트워크 혼잡을 고려하여 설정하는 윈도우 크기입니다.
+
+<br>
+
+1. Slow Start (느린 시작)
+
+
+2. Congestion Avoidance (혼잡 회피)
+
+
+3. Fast Retransmit
+
+
+4. Fast Recovery

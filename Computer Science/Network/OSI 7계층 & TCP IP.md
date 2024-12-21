@@ -67,20 +67,20 @@
 
 ### 1) 네트워크 액세스(Network Access)
 
-- 전기적 신호, 비트 스트림 전송
-- 허브, 리피터, LAN 케이블
+- 데이터 프레임 생성, 물리적 전송
+- Ethernet, Wi-Fi, LAN 케이블
 
 ### 2) 인터넷(Internet)
 
-- 에러 검출, 데이터 프레임 생성 및 MAC 주소 관리
-- 스위치, 브리지, Ethernet, PPP
+- 데이터의 목적지까지의 경로를 설정하고, 패킷을 전달
+- IP(IPv4, IPv6), ICMP, ARP
 
 ### 3) 전송(Transport)
 
-- 경로 설정(라우팅), IP 주소를 통한 데이터 전송
-- 라우터, IP, ARP, ICMP
+- 데이터 패킷 분할 및 재조립, 포트 번호 관리
+- TCP, UDP
 
 ### 4) 응용(Application)
 
-- 데이터 패킷 분할, 전송, 재조립. 신뢰성 보장(TCP) 또는 비연결성(UDP)
-- TCP, UDP
+- 응용 서비스 제공 및 데이터 표현
+- HTTP, FTP, SMTP, DNS

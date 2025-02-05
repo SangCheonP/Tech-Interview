@@ -1,5 +1,15 @@
 ## List(리스트)
 
+<img src="https://javagoal.com/wp-content/uploads/2020/08/42.png">
+
+<br>
+
+📍 리스트 생성
+```java
+List<Integer> arrayList = new ArrayList<>(); // ArrayList 생성
+List<Integer> linkedList = new LinkedList<>(); // LinkedList 생성
+```
+
 📍 원소 추가
 ```
 list.add(element) : 리스트 끝에 원소 추가

@@ -1,5 +1,9 @@
 ## **Stack (스택)**
 
+<img src="https://velog.velcdn.com/images/hyhy9501/post/9082764d-08fa-4a38-87d1-966da9b11195/image.png">
+
+<br>
+
 📍 **스택 생성**
 ```java
 Stack<Type> stack = new Stack<>();

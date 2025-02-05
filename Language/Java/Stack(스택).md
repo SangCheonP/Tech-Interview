@@ -65,25 +65,7 @@ stack.equals(otherStack); // 두 스택 비교
 
 ---
 
-📍 **스택 반복 및 순회**
-```java
-while (!stack.isEmpty()) {
-    System.out.println(stack.pop()); // 스택에서 하나씩 꺼내면서 출력
-}
-
-// 또는 Iterator 사용
-for (Type element : stack) {
-    System.out.println(element);
-}
-```
-
----
-
 📍 **스택 초기화**
 ```java
 stack.clear(); // 스택의 모든 원소 제거
 ```
-
----
-
-이제 `Stack`을 효율적으로 활용할 수 있습니다! 🚀

@@ -7,8 +7,8 @@
 📍 **맵 생성**
 ```java
 Map<KeyType, ValueType> map = new HashMap<>();
+Map<KeyType, ValueType> treeMap = new TreeMap<>(); // 키를 기준으로 정렬된 TreeMap 사용
 Map<KeyType, ValueType> linkedHashMap = new LinkedHashMap<>(); // 입력된 순서대로 저장
-Map<KeyType, ValueType> sortedMap = new TreeMap<>(); // 키를 기준으로 정렬된 TreeMap 사용
 ```
 
 ---

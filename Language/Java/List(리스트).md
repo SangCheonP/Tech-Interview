@@ -10,6 +10,8 @@ List<Integer> arrayList = new ArrayList<>(); // ArrayList 생성
 List<Integer> linkedList = new LinkedList<>(); // LinkedList 생성
 ```
 
+<hr>
+
 📍 원소 추가
 ```
 list.add(element) : 리스트 끝에 원소 추가

@@ -22,33 +22,96 @@
 
 ## Directory
 
+현재 저장소에 있는 파일까지 표시했습니다. 학습 순서가 있는 디렉터리의 `README.md`에서 체크리스트를 볼 수 있습니다.
+
 ```text
 Tech-Interview
 ├── Algorithm
-├── Language
-│   └── Java
-│       ├── JVM
-│       └── Concurrency
+│   ├── 크루스칼(Kruskal) 알고리즘.md
+│   └── 플로이드-워셜(Floyd-Warshall).md
 ├── Computer Science
+│   ├── Network
+│   │   ├── HTTP & HTTPS.md
+│   │   ├── OSI 7계층 & TCP IP.md
+│   │   ├── README.md
+│   │   ├── TCP 3 & 4 way handshake.md
+│   │   ├── TCP 흐름제어 & 혼잡제어.md
+│   │   └── UDP.md
 │   ├── Operating System
-│   └── Network
+│   │   ├── 01. Program과 Process.md
+│   │   ├── 02. Process 메모리 구조.md
+│   │   ├── 03. Process와 Thread.md
+│   │   ├── 04. Context Switching.md
+│   │   ├── 05. 동시성과 병렬성.md
+│   │   └── README.md
+│   └── OS
+│       ├── 경쟁 상태(Race Condition).md
+│       ├── 데드락(DeadLock).md
+│       ├── 뮤텍스 & 세마포어(Mutex & Semaphore).md
+│       ├── 세마포어(Semapoer).md
+│       ├── 프로세스 & 스레드.md
+│       └── CPU 스케줄링(CPU Scheduling).md
 ├── Database
 │   ├── SQL Performance
-│   └── Transaction
+│   │   └── README.md
+│   ├── Transaction
+│   │   └── README.md
+│   ├── 뷰(View).md
+│   ├── 인덱스(Index).md
+│   ├── 정규화(Normalization).md
+│   └── RDB & NoSQL.md
+├── docs
+│   └── WRITING_GUIDE.md
 ├── Framework
-│   ├── Spring
-│   │   ├── Core
-│   │   └── Web
-│   └── JPA
-└── Infra
-    ├── Linux
-    ├── Docker
-    ├── CI-CD
-    ├── Kubernetes
-    └── AWS
+│   ├── JPA
+│   │   └── README.md
+│   └── Spring
+│       ├── Core
+│       │   └── README.md
+│       ├── Web
+│       │   └── README.md
+│       └── 스프링(Spring).md
+├── Infra
+│   ├── AWS
+│   │   └── README.md
+│   ├── CI-CD
+│   │   └── README.md
+│   ├── Docker
+│   │   └── README.md
+│   ├── Kubernetes
+│   │   └── README.md
+│   └── Linux
+│       └── README.md
+├── Language
+│   └── Java
+│       ├── Concurrency
+│       │   ├── 01. Java Thread.md
+│       │   └── README.md
+│       ├── JVM
+│       │   ├── 01. Java 실행 과정.md
+│       │   ├── 02. JVM 구조.md
+│       │   ├── 03. Stack과 Heap.md
+│       │   ├── 04. 객체 생성과 메모리.md
+│       │   ├── 05. GC (Garbage Collection).md
+│       │   ├── 06. Class Loader.md
+│       │   ├── 07. JIT Compiler.md
+│       │   └── README.md
+│       ├── 오버로딩 & 오버라이딩(Overloading & Overriding).md
+│       ├── 컴파일 & 런타임(Complile & Run-time).md
+│       ├── 클래스 & 함수 정리.md
+│       ├── Deque (덱).md
+│       ├── GC(Garbage Collection).md
+│       ├── List(리스트).md
+│       ├── Map(맵).md
+│       ├── PriorityQueue (우선순위 큐).md
+│       ├── Queue(큐).md
+│       ├── Set(집합).md
+│       ├── Stack(스택).md
+│       └── String.md
+├── resources
+│   └── UDP_Header.png
+└── README.md
 ```
-
-각 디렉터리의 `README.md`에 학습 순서를 체크리스트로 관리합니다.
 
 ## 학습 문서 읽기
 

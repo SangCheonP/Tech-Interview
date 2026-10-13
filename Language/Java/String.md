@@ -84,3 +84,7 @@ System.out.println(String.format("%.2f", ceiledValue)); // "1.99"
 - **내림**: `Math.floor(value * 100) / 100`
 - **버림**: `((int) (value * 100)) / 100.0`
 - **올림**: `Math.ceil(value * 100) / 100`
+
+---
+
+[다음: 컬렉션 List, Set, Map](<컬렉션 List, Set, Map.md>)

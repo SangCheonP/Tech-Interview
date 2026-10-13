@@ -90,3 +90,7 @@ static boolean union(int a, int b){
     return false; // 이미 같은 집합이면 연결하지 않음
 }
 ```
+
+---
+
+[다음: 플로이드-워셜](<플로이드-워셜(Floyd-Warshall).md>)

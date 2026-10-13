@@ -8,3 +8,9 @@
 - [ ] 02. TCP·UDP, 연결 수립과 Socket
 - [ ] 03. DNS와 HTTP 요청·응답, Method·Status Code
 - [ ] 04. Cookie·Session·JWT와 HTTPS
+
+## 기존 학습 자료
+
+- [OSI 계층과 TCP-UDP](<OSI 계층과 TCP-UDP.md>)
+- [TCP 연결과 제어](<TCP 연결과 제어.md>)
+- [HTTP와 HTTPS](<HTTP & HTTPS.md>)

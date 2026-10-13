@@ -56,3 +56,7 @@
 
 3. 종속성 문제:
     뷰가 참조하는 기본 테이블이 삭제되거나 변경되면 **뷰도 영향**을 받을 수 있음
+
+---
+
+[다음: SQL Performance 학습 목차](<SQL Performance/README.md>)

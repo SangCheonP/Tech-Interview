@@ -2,12 +2,9 @@
 
 애플리케이션이 실행되는 서버 환경의 기본 원리를 학습합니다.
 
-- [ ] 01. Linux란
-- [ ] 02. Process
-- [ ] 03. Process 관리
-- [ ] 04. File System
-- [ ] 05. Permission
-- [ ] 06. Environment Variable
-- [ ] 07. Port와 Network
-- [ ] 08. 로그
-- [ ] 09. 자주 사용하는 Linux 명령어
+비슷한 개념을 묶은 **작성 예정 문서** 목록입니다. 작성된 문서에만 링크를 추가합니다.
+
+- [ ] 01. Linux Process와 관리 명령
+- [ ] 02. File System과 Permission
+- [ ] 03. 환경 변수, Port와 Network
+- [ ] 04. 로그 확인과 운영 명령어

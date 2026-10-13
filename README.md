@@ -22,7 +22,7 @@
 
 ## Directory
 
-현재 저장소의 폴더와 파일을 표시했습니다. 이름을 누르면 해당 위치로 이동합니다. 학습 순서는 각 분야의 `README.md`에서 확인할 수 있습니다.
+현재 저장소의 폴더와 파일을 표시했습니다. 이름을 누르면 해당 위치로 이동합니다. 학습 순서는 각 분야의 `README.md`에서 확인할 수 있습니다. 작성 예정 항목은 목차에만 표시하고, 작성된 학습 문서 끝에는 다음 문서 링크를 둡니다.
 
 <pre>
 Tech-Interview
@@ -38,11 +38,8 @@ Tech-Interview
 │   │   ├── <a href="Computer%20Science/Network/TCP%20%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&amp;%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.md">TCP 흐름제어 &amp; 혼잡제어.md</a>
 │   │   └── <a href="Computer%20Science/Network/UDP.md">UDP.md</a>
 │   ├── <a href="Computer%20Science/Operating%20System">Operating System</a>
-│   │   ├── <a href="Computer%20Science/Operating%20System/01.%20Program%EA%B3%BC%20Process.md">01. Program과 Process.md</a>
-│   │   ├── <a href="Computer%20Science/Operating%20System/02.%20Process%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md">02. Process 메모리 구조.md</a>
-│   │   ├── <a href="Computer%20Science/Operating%20System/03.%20Process%EC%99%80%20Thread.md">03. Process와 Thread.md</a>
-│   │   ├── <a href="Computer%20Science/Operating%20System/04.%20Context%20Switching.md">04. Context Switching.md</a>
-│   │   ├── <a href="Computer%20Science/Operating%20System/05.%20%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%84%B1.md">05. 동시성과 병렬성.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/01.%20Program,%20Process%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md">01. Program, Process와 메모리.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/02.%20Thread,%20%EB%AC%B8%EB%A7%A5%20%EA%B5%90%ED%99%98%EA%B3%BC%20%EB%8F%99%EC%8B%9C%EC%84%B1.md">02. Thread, 문맥 교환과 동시성.md</a>
 │   │   └── <a href="Computer%20Science/Operating%20System/README.md">README.md</a>
 │   └── <a href="Computer%20Science/OS">OS</a>
 │       ├── <a href="Computer%20Science/OS/%EA%B2%BD%EC%9F%81%20%EC%83%81%ED%83%9C(Race%20Condition).md">경쟁 상태(Race Condition).md</a>
@@ -91,10 +88,9 @@ Tech-Interview
 │       │   ├── <a href="Language/Java/JVM/01.%20Java%20%EC%8B%A4%ED%96%89%20%EA%B3%BC%EC%A0%95.md">01. Java 실행 과정.md</a>
 │       │   ├── <a href="Language/Java/JVM/02.%20JVM%20%EA%B5%AC%EC%A1%B0.md">02. JVM 구조.md</a>
 │       │   ├── <a href="Language/Java/JVM/03.%20Stack%EA%B3%BC%20Heap.md">03. Stack과 Heap.md</a>
-│       │   ├── <a href="Language/Java/JVM/04.%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md">04. 객체 생성과 메모리.md</a>
-│       │   ├── <a href="Language/Java/JVM/05.%20GC%20(Garbage%20Collection).md">05. GC (Garbage Collection).md</a>
-│       │   ├── <a href="Language/Java/JVM/06.%20Class%20Loader.md">06. Class Loader.md</a>
-│       │   ├── <a href="Language/Java/JVM/07.%20JIT%20Compiler.md">07. JIT Compiler.md</a>
+│       │   ├── <a href="Language/Java/JVM/04.%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EA%B3%BC%20GC.md">04. 객체 생성과 GC.md</a>
+│       │   ├── <a href="Language/Java/JVM/05.%20Class%20Loader.md">05. Class Loader.md</a>
+│       │   ├── <a href="Language/Java/JVM/06.%20JIT%20Compiler.md">06. JIT Compiler.md</a>
 │       │   └── <a href="Language/Java/JVM/README.md">README.md</a>
 │       ├── <a href="Language/Java/%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9%20&amp;%20%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9(Overloading%20&amp;%20Overriding).md">오버로딩 &amp; 오버라이딩(Overloading &amp; Overriding).md</a>
 │       ├── <a href="Language/Java/%EC%BB%B4%ED%8C%8C%EC%9D%BC%20&amp;%20%EB%9F%B0%ED%83%80%EC%9E%84(Complile%20&amp;%20Run-time).md">컴파일 &amp; 런타임(Complile &amp; Run-time).md</a>

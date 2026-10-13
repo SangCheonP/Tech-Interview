@@ -2,17 +2,11 @@
 
 컨테이너 오케스트레이션의 핵심 구성 요소와 운영 방식을 학습합니다.
 
-- [ ] 01. Kubernetes란
-- [ ] 02. Kubernetes Architecture
-- [ ] 03. Pod
-- [ ] 04. ReplicaSet
-- [ ] 05. Deployment
-- [ ] 06. Service
-- [ ] 07. ConfigMap
-- [ ] 08. Secret
-- [ ] 09. Ingress
-- [ ] 10. Liveness Probe
-- [ ] 11. Readiness Probe
-- [ ] 12. Rolling Update
-- [ ] 13. Resource Request와 Limit
-- [ ] 14. HPA
+비슷한 개념을 묶은 **작성 예정 문서** 목록입니다. 작성된 문서에만 링크를 추가합니다.
+
+- [ ] 01. Kubernetes Architecture와 Pod
+- [ ] 02. ReplicaSet, Deployment와 Rolling Update
+- [ ] 03. Service, Ingress와 외부 통신
+- [ ] 04. ConfigMap, Secret과 설정 관리
+- [ ] 05. Liveness·Readiness Probe와 복구
+- [ ] 06. Request·Limit와 HPA

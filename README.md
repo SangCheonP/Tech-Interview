@@ -6,112 +6,112 @@
 
 학습한 주제를 단순 암기하는 것이 아니라 앞뒤 개념을 연결해 설명할 수 있는 것을 목표로 합니다.
 
-1. **Java / JVM** - Java 실행 과정과 메모리 관리
-2. **Operating System + Java Concurrency** - Process, Thread와 동시성
-3. **Database / SQL Performance** - SQL 실행 원리와 성능 최적화
-4. **Database / Transaction** - 트랜잭션과 동시성 제어
-5. **Spring Core** - IoC, DI, Bean, AOP, Transaction
-6. **JDBC & JPA** - DB 접근부터 영속성 컨텍스트까지
-7. **Network** - TCP/IP와 HTTP
-8. **Spring Web** - HTTP 요청이 Spring에서 처리되는 과정
-9. **Linux** - 서버 실행 환경
-10. **Docker** - 컨테이너
-11. **CI/CD** - 빌드와 배포 자동화
-12. **Kubernetes** - 컨테이너 오케스트레이션
-13. **AWS** - 클라우드 인프라
+1. [**Java / JVM**](Language/Java/JVM/README.md) - Java 실행 과정과 메모리 관리
+2. [**Operating System**](Computer%20Science/Operating%20System/README.md) + [**Java Concurrency**](Language/Java/Concurrency/README.md) - Process, Thread와 동시성
+3. [**Database / SQL Performance**](Database/SQL%20Performance/README.md) - SQL 실행 원리와 성능 최적화
+4. [**Database / Transaction**](Database/Transaction/README.md) - 트랜잭션과 동시성 제어
+5. [**Spring Core**](Framework/Spring/Core/README.md) - IoC, DI, Bean, AOP, Transaction
+6. [**JDBC & JPA**](Framework/JPA/README.md) - DB 접근부터 영속성 컨텍스트까지
+7. [**Network**](Computer%20Science/Network/README.md) - TCP/IP와 HTTP
+8. [**Spring Web**](Framework/Spring/Web/README.md) - HTTP 요청이 Spring에서 처리되는 과정
+9. [**Linux**](Infra/Linux/README.md) - 서버 실행 환경
+10. [**Docker**](Infra/Docker/README.md) - 컨테이너
+11. [**CI/CD**](Infra/CI-CD/README.md) - 빌드와 배포 자동화
+12. [**Kubernetes**](Infra/Kubernetes/README.md) - 컨테이너 오케스트레이션
+13. [**AWS**](Infra/AWS/README.md) - 클라우드 인프라
 
 ## Directory
 
-현재 저장소에 있는 파일까지 표시했습니다. 학습 순서가 있는 디렉터리의 `README.md`에서 체크리스트를 볼 수 있습니다.
+현재 저장소의 폴더와 파일을 표시했습니다. 이름을 누르면 해당 위치로 이동합니다. 학습 순서는 각 분야의 `README.md`에서 확인할 수 있습니다.
 
-```text
+<pre>
 Tech-Interview
-├── Algorithm
-│   ├── 크루스칼(Kruskal) 알고리즘.md
-│   └── 플로이드-워셜(Floyd-Warshall).md
-├── Computer Science
-│   ├── Network
-│   │   ├── HTTP & HTTPS.md
-│   │   ├── OSI 7계층 & TCP IP.md
-│   │   ├── README.md
-│   │   ├── TCP 3 & 4 way handshake.md
-│   │   ├── TCP 흐름제어 & 혼잡제어.md
-│   │   └── UDP.md
-│   ├── Operating System
-│   │   ├── 01. Program과 Process.md
-│   │   ├── 02. Process 메모리 구조.md
-│   │   ├── 03. Process와 Thread.md
-│   │   ├── 04. Context Switching.md
-│   │   ├── 05. 동시성과 병렬성.md
-│   │   └── README.md
-│   └── OS
-│       ├── 경쟁 상태(Race Condition).md
-│       ├── 데드락(DeadLock).md
-│       ├── 뮤텍스 & 세마포어(Mutex & Semaphore).md
-│       ├── 세마포어(Semapoer).md
-│       ├── 프로세스 & 스레드.md
-│       └── CPU 스케줄링(CPU Scheduling).md
-├── Database
-│   ├── SQL Performance
-│   │   └── README.md
-│   ├── Transaction
-│   │   └── README.md
-│   ├── 뷰(View).md
-│   ├── 인덱스(Index).md
-│   ├── 정규화(Normalization).md
-│   └── RDB & NoSQL.md
-├── docs
-│   └── WRITING_GUIDE.md
-├── Framework
-│   ├── JPA
-│   │   └── README.md
-│   └── Spring
-│       ├── Core
-│       │   └── README.md
-│       ├── Web
-│       │   └── README.md
-│       └── 스프링(Spring).md
-├── Infra
-│   ├── AWS
-│   │   └── README.md
-│   ├── CI-CD
-│   │   └── README.md
-│   ├── Docker
-│   │   └── README.md
-│   ├── Kubernetes
-│   │   └── README.md
-│   └── Linux
-│       └── README.md
-├── Language
-│   └── Java
-│       ├── Concurrency
-│       │   ├── 01. Java Thread.md
-│       │   └── README.md
-│       ├── JVM
-│       │   ├── 01. Java 실행 과정.md
-│       │   ├── 02. JVM 구조.md
-│       │   ├── 03. Stack과 Heap.md
-│       │   ├── 04. 객체 생성과 메모리.md
-│       │   ├── 05. GC (Garbage Collection).md
-│       │   ├── 06. Class Loader.md
-│       │   ├── 07. JIT Compiler.md
-│       │   └── README.md
-│       ├── 오버로딩 & 오버라이딩(Overloading & Overriding).md
-│       ├── 컴파일 & 런타임(Complile & Run-time).md
-│       ├── 클래스 & 함수 정리.md
-│       ├── Deque (덱).md
-│       ├── GC(Garbage Collection).md
-│       ├── List(리스트).md
-│       ├── Map(맵).md
-│       ├── PriorityQueue (우선순위 큐).md
-│       ├── Queue(큐).md
-│       ├── Set(집합).md
-│       ├── Stack(스택).md
-│       └── String.md
-├── resources
-│   └── UDP_Header.png
-└── README.md
-```
+├── <a href="Algorithm">Algorithm</a>
+│   ├── <a href="Algorithm/%ED%81%AC%EB%A3%A8%EC%8A%A4%EC%B9%BC(Kruskal)%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md">크루스칼(Kruskal) 알고리즘.md</a>
+│   └── <a href="Algorithm/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%85%9C(Floyd-Warshall).md">플로이드-워셜(Floyd-Warshall).md</a>
+├── <a href="Computer%20Science">Computer Science</a>
+│   ├── <a href="Computer%20Science/Network">Network</a>
+│   │   ├── <a href="Computer%20Science/Network/HTTP%20&amp;%20HTTPS.md">HTTP &amp; HTTPS.md</a>
+│   │   ├── <a href="Computer%20Science/Network/OSI%207%EA%B3%84%EC%B8%B5%20&amp;%20TCP%20IP.md">OSI 7계층 &amp; TCP IP.md</a>
+│   │   ├── <a href="Computer%20Science/Network/README.md">README.md</a>
+│   │   ├── <a href="Computer%20Science/Network/TCP%203%20&amp;%204%20way%20handshake.md">TCP 3 &amp; 4 way handshake.md</a>
+│   │   ├── <a href="Computer%20Science/Network/TCP%20%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&amp;%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.md">TCP 흐름제어 &amp; 혼잡제어.md</a>
+│   │   └── <a href="Computer%20Science/Network/UDP.md">UDP.md</a>
+│   ├── <a href="Computer%20Science/Operating%20System">Operating System</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/01.%20Program%EA%B3%BC%20Process.md">01. Program과 Process.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/02.%20Process%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md">02. Process 메모리 구조.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/03.%20Process%EC%99%80%20Thread.md">03. Process와 Thread.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/04.%20Context%20Switching.md">04. Context Switching.md</a>
+│   │   ├── <a href="Computer%20Science/Operating%20System/05.%20%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%84%B1.md">05. 동시성과 병렬성.md</a>
+│   │   └── <a href="Computer%20Science/Operating%20System/README.md">README.md</a>
+│   └── <a href="Computer%20Science/OS">OS</a>
+│       ├── <a href="Computer%20Science/OS/%EA%B2%BD%EC%9F%81%20%EC%83%81%ED%83%9C(Race%20Condition).md">경쟁 상태(Race Condition).md</a>
+│       ├── <a href="Computer%20Science/OS/%EB%8D%B0%EB%93%9C%EB%9D%BD(DeadLock).md">데드락(DeadLock).md</a>
+│       ├── <a href="Computer%20Science/OS/%EB%AE%A4%ED%85%8D%EC%8A%A4%20&amp;%20%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Mutex%20&amp;%20Semaphore).md">뮤텍스 &amp; 세마포어(Mutex &amp; Semaphore).md</a>
+│       ├── <a href="Computer%20Science/OS/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semapoer).md">세마포어(Semapoer).md</a>
+│       ├── <a href="Computer%20Science/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20&amp;%20%EC%8A%A4%EB%A0%88%EB%93%9C.md">프로세스 &amp; 스레드.md</a>
+│       └── <a href="Computer%20Science/OS/CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81(CPU%20Scheduling).md">CPU 스케줄링(CPU Scheduling).md</a>
+├── <a href="Database">Database</a>
+│   ├── <a href="Database/SQL%20Performance">SQL Performance</a>
+│   │   └── <a href="Database/SQL%20Performance/README.md">README.md</a>
+│   ├── <a href="Database/Transaction">Transaction</a>
+│   │   └── <a href="Database/Transaction/README.md">README.md</a>
+│   ├── <a href="Database/%EB%B7%B0(View).md">뷰(View).md</a>
+│   ├── <a href="Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(Index).md">인덱스(Index).md</a>
+│   ├── <a href="Database/%EC%A0%95%EA%B7%9C%ED%99%94(Normalization).md">정규화(Normalization).md</a>
+│   └── <a href="Database/RDB%20&amp;%20NoSQL.md">RDB &amp; NoSQL.md</a>
+├── <a href="docs">docs</a>
+│   └── <a href="docs/WRITING_GUIDE.md">WRITING_GUIDE.md</a>
+├── <a href="Framework">Framework</a>
+│   ├── <a href="Framework/JPA">JPA</a>
+│   │   └── <a href="Framework/JPA/README.md">README.md</a>
+│   └── <a href="Framework/Spring">Spring</a>
+│       ├── <a href="Framework/Spring/Core">Core</a>
+│       │   └── <a href="Framework/Spring/Core/README.md">README.md</a>
+│       ├── <a href="Framework/Spring/Web">Web</a>
+│       │   └── <a href="Framework/Spring/Web/README.md">README.md</a>
+│       └── <a href="Framework/Spring/%EC%8A%A4%ED%94%84%EB%A7%81(Spring).md">스프링(Spring).md</a>
+├── <a href="Infra">Infra</a>
+│   ├── <a href="Infra/AWS">AWS</a>
+│   │   └── <a href="Infra/AWS/README.md">README.md</a>
+│   ├── <a href="Infra/CI-CD">CI-CD</a>
+│   │   └── <a href="Infra/CI-CD/README.md">README.md</a>
+│   ├── <a href="Infra/Docker">Docker</a>
+│   │   └── <a href="Infra/Docker/README.md">README.md</a>
+│   ├── <a href="Infra/Kubernetes">Kubernetes</a>
+│   │   └── <a href="Infra/Kubernetes/README.md">README.md</a>
+│   └── <a href="Infra/Linux">Linux</a>
+│       └── <a href="Infra/Linux/README.md">README.md</a>
+├── <a href="Language">Language</a>
+│   └── <a href="Language/Java">Java</a>
+│       ├── <a href="Language/Java/Concurrency">Concurrency</a>
+│       │   ├── <a href="Language/Java/Concurrency/01.%20Java%20Thread.md">01. Java Thread.md</a>
+│       │   └── <a href="Language/Java/Concurrency/README.md">README.md</a>
+│       ├── <a href="Language/Java/JVM">JVM</a>
+│       │   ├── <a href="Language/Java/JVM/01.%20Java%20%EC%8B%A4%ED%96%89%20%EA%B3%BC%EC%A0%95.md">01. Java 실행 과정.md</a>
+│       │   ├── <a href="Language/Java/JVM/02.%20JVM%20%EA%B5%AC%EC%A1%B0.md">02. JVM 구조.md</a>
+│       │   ├── <a href="Language/Java/JVM/03.%20Stack%EA%B3%BC%20Heap.md">03. Stack과 Heap.md</a>
+│       │   ├── <a href="Language/Java/JVM/04.%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md">04. 객체 생성과 메모리.md</a>
+│       │   ├── <a href="Language/Java/JVM/05.%20GC%20(Garbage%20Collection).md">05. GC (Garbage Collection).md</a>
+│       │   ├── <a href="Language/Java/JVM/06.%20Class%20Loader.md">06. Class Loader.md</a>
+│       │   ├── <a href="Language/Java/JVM/07.%20JIT%20Compiler.md">07. JIT Compiler.md</a>
+│       │   └── <a href="Language/Java/JVM/README.md">README.md</a>
+│       ├── <a href="Language/Java/%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9%20&amp;%20%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9(Overloading%20&amp;%20Overriding).md">오버로딩 &amp; 오버라이딩(Overloading &amp; Overriding).md</a>
+│       ├── <a href="Language/Java/%EC%BB%B4%ED%8C%8C%EC%9D%BC%20&amp;%20%EB%9F%B0%ED%83%80%EC%9E%84(Complile%20&amp;%20Run-time).md">컴파일 &amp; 런타임(Complile &amp; Run-time).md</a>
+│       ├── <a href="Language/Java/%ED%81%B4%EB%9E%98%EC%8A%A4%20&amp;%20%ED%95%A8%EC%88%98%20%EC%A0%95%EB%A6%AC.md">클래스 &amp; 함수 정리.md</a>
+│       ├── <a href="Language/Java/Deque%20(%EB%8D%B1).md">Deque (덱).md</a>
+│       ├── <a href="Language/Java/GC(Garbage%20Collection).md">GC(Garbage Collection).md</a>
+│       ├── <a href="Language/Java/List(%EB%A6%AC%EC%8A%A4%ED%8A%B8).md">List(리스트).md</a>
+│       ├── <a href="Language/Java/Map(%EB%A7%B5).md">Map(맵).md</a>
+│       ├── <a href="Language/Java/PriorityQueue%20(%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90).md">PriorityQueue (우선순위 큐).md</a>
+│       ├── <a href="Language/Java/Queue(%ED%81%90).md">Queue(큐).md</a>
+│       ├── <a href="Language/Java/Set(%EC%A7%91%ED%95%A9).md">Set(집합).md</a>
+│       ├── <a href="Language/Java/Stack(%EC%8A%A4%ED%83%9D).md">Stack(스택).md</a>
+│       └── <a href="Language/Java/String.md">String.md</a>
+├── <a href="resources">resources</a>
+│   └── <a href="resources/UDP_Header.png">UDP_Header.png</a>
+└── <a href="README.md">README.md</a>
+</pre>
 
 ## 학습 문서 읽기
 

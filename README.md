@@ -49,3 +49,7 @@ Tech-Interview
 ```
 
 각 디렉터리의 `README.md`에 학습 순서를 체크리스트로 관리합니다.
+
+## 학습 문서 읽기
+
+각 문서는 **대표 면접 질문 → 30초 답변 → 핵심 키워드 → 설명과 예제 → 꼬리 질문과 답** 순서로 읽을 수 있습니다. 분야별 질문 범위는 [Interview_Question_for_Beginner](https://github.com/jbee37142/Interview_Question_for_Beginner)를 참고하고, 내용은 공식 자료와 현재 동작에 맞춰 작성합니다. 작성 기준은 [면접 학습 문서 작성 기준](docs/WRITING_GUIDE.md)에 정리했습니다.

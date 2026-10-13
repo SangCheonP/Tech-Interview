@@ -4,7 +4,9 @@
 
 비슷한 개념을 묶은 **작성 예정 문서** 목록입니다. 작성된 문서에만 링크를 추가합니다.
 
-- [ ] 01. Linux Process와 관리 명령
-- [ ] 02. File System과 Permission
-- [ ] 03. 환경 변수, Port와 Network
-- [ ] 04. 로그 확인과 운영 명령어
+- [ ] 01. Linux Process와 실행 — PID, Signal, 종료 코드와 자원 확인
+- [ ] 02. File System과 Permission — 경로·소유자·권한, 로그 파일
+- [ ] 03. 환경 변수와 서버 네트워크 — Port, DNS, 연결 확인
+- [ ] 04. 운영 명령과 장애 확인 — 로그·CPU·메모리·디스크·프로세스
+
+[다음 분야: Docker](<../Docker/README.md>)

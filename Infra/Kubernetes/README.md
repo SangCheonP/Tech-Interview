@@ -4,9 +4,10 @@
 
 비슷한 개념을 묶은 **작성 예정 문서** 목록입니다. 작성된 문서에만 링크를 추가합니다.
 
-- [ ] 01. Kubernetes Architecture와 Pod
-- [ ] 02. ReplicaSet, Deployment와 Rolling Update
-- [ ] 03. Service, Ingress와 외부 통신
-- [ ] 04. ConfigMap, Secret과 설정 관리
-- [ ] 05. Liveness·Readiness Probe와 복구
-- [ ] 06. Request·Limit와 HPA
+- [ ] 01. Architecture와 Pod — Control Plane, Node, 스케줄링
+- [ ] 02. 워크로드 관리 — ReplicaSet·Deployment·Rolling Update
+- [ ] 03. 통신 — Service·Ingress, DNS와 외부 진입
+- [ ] 04. 설정과 안전 — ConfigMap·Secret, 권한 개요
+- [ ] 05. 상태와 용량 — Liveness·Readiness, Request·Limit, HPA
+
+[다음 분야: AWS](<../AWS/README.md>)

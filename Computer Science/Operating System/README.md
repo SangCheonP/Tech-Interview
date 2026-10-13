@@ -7,6 +7,4 @@
 - [x] [03. CPU 스케줄링](<03. CPU 스케줄링.md>)
 - [x] [04. 경쟁 상태와 동기화, 데드락](<04. 경쟁 상태와 동기화, 데드락.md>)
 
-기존에 작성한 자세한 비교 노트: [Process와 Thread 보충 자료](<보충. Process와 Thread.md>)
-
 [다음 분야: Java Concurrency](<../../Language/Java/Concurrency/README.md>)

@@ -40,7 +40,6 @@ Tech-Interview
 │       ├── <a href="Computer%20Science/Operating%20System/02.%20Thread,%20%EB%AC%B8%EB%A7%A5%20%EA%B5%90%ED%99%98%EA%B3%BC%20%EB%8F%99%EC%8B%9C%EC%84%B1.md">02. Thread, 문맥 교환과 동시성.md</a>
 │       ├── <a href="Computer%20Science/Operating%20System/03.%20CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md">03. CPU 스케줄링.md</a>
 │       ├── <a href="Computer%20Science/Operating%20System/04.%20%EA%B2%BD%EC%9F%81%20%EC%83%81%ED%83%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94,%20%EB%8D%B0%EB%93%9C%EB%9D%BD.md">04. 경쟁 상태와 동기화, 데드락.md</a>
-│       ├── <a href="Computer%20Science/Operating%20System/%EB%B3%B4%EC%B6%A9.%20Process%EC%99%80%20Thread.md">보충. Process와 Thread.md</a>
 │       └── <a href="Computer%20Science/Operating%20System/README.md">README.md</a>
 ├── <a href="Database">Database</a>
 │   ├── <a href="Database/SQL%20Performance">SQL Performance</a>
